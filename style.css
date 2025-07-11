@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'titulos';
+    src: url('fontes/titulos/CormorantGaramond-BoldItalic.ttf') format('TrueType');
+}
+
+@font-face {
+    font-family: 'textos';
+    src: url('fontes/textos/Lora-Italic-VariableFont_wght.ttf') format('TrueType');
+}
+
 body, html{
     padding: 0;
     margin: 0;
@@ -8,13 +18,16 @@ h1{
     color: white;
     width: 100%;
     max-width: 500px;
+    font-weight: bold;
     font-size: clamp(1.5rem, 2.3vw, 3rem);
+    font-family: 'titulos';
 }
 p{
     color: white;
     width: 100%;
     max-width: 500px;
     font-size: clamp(1rem, 1.5vw, 3rem);
+    font-family: 'textos';
 }
 .fundo_noite{
     width: 1600px;
@@ -32,15 +45,17 @@ p{
     left: 5%;
     background-color: #0003304a;
     padding: 10px;
+    box-shadow: 2px 2px 3px #00000038, -2px -2px 3px #00000038;
 }
 .noite_texto2{
     width: 100%;
     max-width: 500px;
     position: absolute;
     left: 155%;
-    top: 195%;
+    top: 170%;
     background-color: #0003304a;
     padding: 10px;
+    box-shadow: 2px 2px 3px #00000038, -2px -2px 3px #00000038;
 }
 .fundo_divisor{
     width: 1600px;
@@ -53,7 +68,7 @@ p{
     position: absolute;
     top: 231%;
     left: 50%;
-    transform: translate(-27%);
+    transform: translate(-22%);
     font-size: 4em;
 }
 .fundo_dia{
@@ -72,19 +87,84 @@ p{
     left: 5%;
     background-color: #f6adb237;
     padding: 10px;
+    box-shadow: 2px 2px 3px #00000038, -2px -2px 3px #00000038;
 }
 .dia_texto2{
     width: 100%;
     max-width: 500px;
     position: absolute;
-    top: 230%;
+    top: 165%;
     left: 155%;
     background-color: #f6adb237;
     padding: 10px;
+    box-shadow: 2px 2px 3px #00000038, -2px -2px 3px #00000038;
 }
 .dia_texto h1 {
     color: #000330;
 }
 .dia_texto p{
     color: #000330;
+}
+
+@media (max-width: 850px){
+    .fundo_noite{
+        height: 1000px;
+    }
+    .noite_texto{
+        position: absolute;
+        left: 18%;
+    }
+    .noite_texto2{
+        position: absolute;
+        left: 0.5%;
+        top: 200%;
+    }
+    .fundo_divisor{
+        height: 1000px;
+    }
+    .fundo_divisor h1{
+        position: absolute;
+        left: 40%;
+        top: 205%;
+        font-size: clamp(2rem, 14vw, 3rem);
+    }
+    .fundo_dia{
+        height: 1000px;
+    }
+    .dia_texto{
+        position: absolute;
+        left: 18%;
+    }
+    .dia_texto2{
+        position: absolute;
+        left: 0.5%;
+        top: 210%;
+    }
+}
+@media (max-width: 650px){
+    .noite_texto{
+        position: absolute;
+        left: 6.7%;
+    }
+    .noite_texto2{
+        position: absolute;
+        left: -0.1%;
+    }
+    .texto_divisor h1{
+        position: absolute;
+        left: 29%;
+    }
+    .dia_texto{
+        position: absolute;
+        left: 6.7%;
+    }
+    .dia_texto2{
+        position: absolute;
+        left: -0.1%;
+    }
+}
+@media (max-width: 600px){
+    .fundo_noite{
+        height: 1600px;
+    }
 }
