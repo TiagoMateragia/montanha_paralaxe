@@ -165,6 +165,22 @@ p{
 }
 @media (max-width: 600px){
     .fundo_noite{
-        height: 1600px;
+        height: 1500px;
+    }
+    .noite_texto{
+        position: absolute;
+        left: -0.1%;
+        width: 347px;
+    }
+    .noite_texto2{
+        width: 347px;
+    }
+    .texto_divisor{
+        height: 1500px;
+    }
+    .texto_divisor h1{
+        width: 300px;
+        margin-top: 5em;
+        margin-left: -8px;
     }
 }
