@@ -165,7 +165,7 @@ p{
 }
 @media (max-width: 600px){
     .fundo_noite{
-        height: 1500px;
+        height: 1480px;
         width: 100%;
         min-width: 100vh;
     }
@@ -189,7 +189,7 @@ p{
         margin-left: -7px;
     }
     .fundo_dia{
-        height: 1500px;
+        height: 1480px;
         width: 100%;
         min-width: 100vh;
     }
