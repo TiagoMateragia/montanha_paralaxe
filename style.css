@@ -105,6 +105,17 @@ p{
 .dia_texto p{
     color: #000330;
 }
+.creditos{
+    color: white;
+    background: linear-gradient(to right, #01032b, #00021e);
+}
+.creditos h1{
+    text-align: center;
+    margin: auto;
+    font-weight: lighter;
+    font-size: 14px;
+    font-family: 'textos';
+}
 
 @media (max-width: 850px){
     .fundo_noite{
