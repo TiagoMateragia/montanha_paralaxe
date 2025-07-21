@@ -189,18 +189,19 @@ p{
         margin-left: -7px;
     }
     .fundo_dia{
+        height: 1500px;
         width: 100%;
         min-width: 100vh;
     }
     .dia_texto{
         width: 347px;
         margin: -1.4em;
-        margin-top: 19em;
+        margin-top: 19.5em;
         margin-left: -12.5px;
     }
     .dia_texto2{
         width: 347px;
-        margin-top: -4em;
-        margin-left: -2.5px;
+        margin-top: -3em;
+        margin-left: -3px;
     }
 }
