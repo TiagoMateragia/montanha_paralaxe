@@ -168,6 +168,7 @@ p{
         height: 1450px;
         width: 100%;
         min-width: 100vh;
+        background-position: center center;
     }
     .noite_texto{
         margin: -0.9em;
@@ -192,6 +193,7 @@ p{
         height: 1450px;
         width: 100%;
         min-width: 100vh;
+        background-position: center center;
     }
     .dia_texto{
         width: 347px;
