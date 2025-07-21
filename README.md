@@ -39,7 +39,7 @@ para melhorar a leitura em celulares e tablets.
 
 *Como usar*
 
-1. clone o repositório: git clone [https://github.com/TiagoMateragia/montain-vibes.git montain-vibes]
+1. clone o repositório: git clone [https://github.com/TiagoMateragia/montanha_paralaxe.git]
 2. Insira as imagens em uma pasta chamada `imagens`:
    - montanha_noite.jpg
    - montanha_dia.jpg
