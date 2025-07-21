@@ -194,6 +194,7 @@ p{
         height: 1450px;
         width: 100%;
         min-width: 100vh;
+        background-position: center center;
         background-attachment: fixed;
     }
     .dia_texto{
